@@ -2,8 +2,8 @@
 
 <html>
 	<head>
-		<title class="icon fa-yelp">Riddhi's Profile</title>
-		<link rel="icon" class="icon fa-yelp"  type="image/ico" href="images/icons8-libra-480.png" />
+		<title>Riddhi's Profile</title>
+		<link rel="icon"  type="image/ico" href="images/icons8-libra-480.png" />
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -50,7 +50,7 @@
 								<h1>Hello, I'm <strong>Riddhi Patel</strong>.</h1>
 							</header>
 							<p>I am professional <strong>IT JAVA Consultant</strong> who enjoys managing JAVA application development while expertising in the full software development life cycle, from concept and design to software testing.
-								<a href="#moreAboutme" class="small scrolly" style="text-decoration: underline "><strong>View my work</strong></a></p>
+								<a href="#moreAboutme" class="small scrolly" style="text-decoration: no-underline" >View my work <span class="icon fa-arrow-down"></span> </a></p>
 						</div>
 					</div>
 				</div>
@@ -59,33 +59,77 @@
 		<!-- More about me -->
 		<article id="moreAboutme" class="wrapper style2">
 			<div class="container">
+
 				<div class="row">
-					<div class="col-12 col-12-large ">
+					<div class="col-6 col-12-large">
 						<header>
-							<h1 class="aln-middle "><strong>About</strong></h1>
-
+							<h1>About Myself</h1>
 						</header>
-					</div>
-					<div class="col-12 col-12-large">
-
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="col-12 col-12-large">
 						<p>I am a passionate software developer. I am always eager to learn new technologies. I'm excited by new opportunities for the technology and I am interested in the domain of real-time systems.
 							My <strong>3 years</strong> of consulting and strong communication skills make me excellent at bridging business requirements with modern technology. I have got a
-							degree in <strong>Master of Science- Software Engineering</strong> from California Baptist University and am comfortable at all levels of software development stack.</p>
-
-						<a href="#workedu" class="button large scrolly">What I do</a>
+							degree in <strong><span class="icon fa-graduation-cap"></span> Master of Science- Software Engineering</strong> from California Baptist University and am comfortable at all levels of software development stack.</p>
+					</div>
+					<div class="col-6 col-12-large">
+						<div class="tools_expert">
+						<div class="skill_main">
+							<div class="skill_item">
+								<h4>JAVA <span class="counter"> 85</span>%</h4>
+								<div class="progress_br">
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+								</div>
+							</div>
+							<div class="skill_item">
+								<h4>Microservices using Spring Boot <span class="counter">70</span>%</h4>
+								<div class="progress_br">
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+								</div>
+							</div>
+							<div class="skill_item">
+								<h4>AWS <span class="counter">50</span>%</h4>
+								<div class="progress_br">
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+								</div>
+							</div>
+							<div class="skill_item">
+								<h4>JAX-RS <span class="counter">95</span>%</h4>
+								<div class="progress_br">
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+								</div>
+							</div>
+							<div class="skill_item">
+								<h4>Hibernate <span class="counter">75</span>%</h4>
+								<div class="progress_br">
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						</div>
 					</div>
 				</div>
+				<footer>
+					<hr />
+					<a href="#workedu" class="icon fa-4x fa-chevron-down large scrolly"></a>
+				</footer>
 			</div>
+
 		</article>
 
 		<!--================Work and Education =================-->
 		<article class="mytabs_area p_120" id="workedu">
 			<div class="container">
+				<header>
+					<h1 align="center"><strong>What I Do</strong></h1>
+				</header>
 				<div class="tabs_inner">
 					<ul class="nav nav-tabs" id="myTab" role="tablist">
 						<li class="nav-item">
@@ -201,8 +245,8 @@
 											<p>Jan 2015 to present</p>
 										</div>
 										<div class=" col-12-xlarge media-body">
-											<h4>JAVA Developers Certification</h4>
-											<p>NTT DATA Learning and Certification Institute Level 2</p>
+											<h4> JAVA Developers Certification</h4>
+											<p> NTT DATA Learning and Certification Institute Level 2</p>
 										</div>
 									</div>
 								</li>
@@ -222,10 +266,11 @@
 						</div>
 					</div>
 				</div>
-				</div>
 				<footer style="text-align: center">
-							<a href="#portfolio" class=" button large scrolly" >See some of my recent work</a>
+					<hr />
+					<b><a href="#portfolio" class=" icon fa-4x fa-chevron-circle-down large scrolly" style="color: #1e233b"></a></b>
 				</footer>
+				</div>
 			</div>
 
 		</article>
@@ -304,8 +349,9 @@
 						</div>
 					</div>
 					<footer>
+						<hr />
+							<a href="#contact" class="icon fa-4x fa-arrow-circle-down large scrolly" style="color: #002752"></a>
 
-						<a href="#contact" class="button large scrolly">Get in touch with me</a>
 					</footer>
 				</div>
 			</article>
